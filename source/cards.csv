@@ -31,7 +31,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 30,6,multiple_choice,exercise,27,Why does a generic greeting suggest phishing?,Not personal|More formal|Saves ink,0,,,"A generic greeting means the message was blasted to many people, not written for you."
 31,7,true_false,preview,32,The name shown on an email can be faked.,,true,,,A display name is just text — it can say 'Amazon' while the real address is anything.
 32,7,multiple_choice,main,,What actually reveals a fake sender?,Real address|Display name|Subject line,0,,,"Always check the full email address behind the display name, not just the name shown."
-33,7,multiple_choice,exercise,32,"""Amazon"" <support@amaz0n-secure.ru>",Scam|Legit,0,,,"The display name says Amazon, but the real domain is a lookalike — classic sender spoofing."
+33,7,multiple_choice,exercise,32,"""Amazon"" <support@amaz0n-secure.ru>",Scam|Legit,0,,,"The display name says Amazon, but the real domain is a lookalike — a classic sender-identity trick."
 34,7,multiple_choice,exercise,32,"""Amazon"" <auto-confirm@amazon.com>",Legit|Scam,0,,,The real address actually matches the company's own domain — the sign to look for.
 35,7,multiple_choice,exercise,32,"Why check the real address, not the name?",Easily faked|Company policy|Looks neater,0,,,Anyone can type any display name — only the domain after the @ is hard to fake.
 36,8,true_false,preview,37,Hovering over a link shows its real destination.,,true,,,Hovering (without clicking) reveals the actual URL — often very different from the text shown.
