@@ -1,5 +1,5 @@
 id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
-1,1,true_false,preview,2,Scams mostly rely on tricking you technically.,,false,,,Most scams succeed through psychology — urgency and trust — not clever hacking.
+1,1,true_false,preview,2,"Most scams succeed through psychology, not hacking.",,true,,,Most scams succeed through psychology — urgency and trust — not clever hacking.
 2,1,multiple_choice,main,,What do most scams exploit?,Emotions|Software|Hardware,0,,,"Scammers target feelings — fear, urgency, trust — because emotions override careful thinking."
 3,1,multiple_choice,exercise,2,"""Panic! Your account closes in 1 hour.""",Scam|Legit,0,,,Manufactured panic is the classic emotional trigger — real account issues don't work this way.
 4,1,multiple_choice,exercise,2,"""You've been randomly selected — huge reward!""",Scam|Legit,0,,,Unearned excitement is bait — it hooks emotion before you can think it through.
