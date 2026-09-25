@@ -1,9 +1,14 @@
 term,definition,link,introduced_by_card_id
 Phishing,"A scam message — usually email — designed to look like it's from a real company or person, trying to trick you into clicking a link or giving up information.",https://en.wikipedia.org/wiki/Phishing,26
-Smishing,"Phishing sent by text message (SMS) instead of email — the same tricks, like fake delivery notices or bank alerts.",,42
-Quishing,Phishing delivered through a QR code — scanning it sends you to a fake website instead of typing a link yourself.,,47
-Spoofing,"Faking the caller ID or sender address so a message or call appears to come from someone trustworthy, when it doesn't.",,42
+Smishing,"Phishing sent by text message (SMS) instead of email — the same tricks, like fake delivery notices or bank alerts.",https://en.wikipedia.org/wiki/SMS_phishing,42
+Quishing,Phishing delivered through a QR code — scanning it sends you to a fake website instead of typing a link yourself.,https://en.wikipedia.org/wiki/Phishing,47
+Spoofing,"Faking the caller ID or sender address so a message or call appears to come from someone trustworthy, when it doesn't.",https://en.wikipedia.org/wiki/Spoofing_attack,132
 Ponzi scheme,"A fake investment where early investors are paid using money from newer investors, not real profit — it collapses once new money stops coming in.",https://en.wikipedia.org/wiki/Ponzi_scheme,86
-Pig-butchering scam,A long-con scam that slowly builds a fake friendship or romance over weeks before steering the victim toward a fake investment.,,92
-Voice cloning,"Using AI to recreate someone's voice from a short audio sample, then using the fake voice to impersonate them on a call.",,52
-Wire transfer,"A direct, fast bank-to-bank money transfer that's very difficult to reverse once sent — a favorite payment method for scammers.",,76
+Pig-butchering scam,A long-con scam that slowly builds a fake friendship or romance over weeks before steering the victim toward a fake investment.,https://en.wikipedia.org/wiki/Pig_butchering_scam,92
+Voice cloning,"Using AI to recreate someone's voice from a short audio sample, then using the fake voice to impersonate them on a call.",https://en.wikipedia.org/wiki/Audio_deepfake,52
+Wire transfer,"A direct, fast bank-to-bank money transfer that's very difficult to reverse once sent — a favorite payment method for scammers.",https://en.wikipedia.org/wiki/Wire_transfer,76
+QR,Quick-response code: a square barcode that a phone camera scans to open a link or app.,https://en.wikipedia.org/wiki/QR_code,
+AI,Artificial intelligence: software that performs tasks that normally need human intelligence.,https://en.wikipedia.org/wiki/Artificial_intelligence,
+URL,Uniform resource locator: the web address of a page.,https://en.wikipedia.org/wiki/URL,
+PIN,"Personal identification number: a short secret code that proves it is you, such as a bank card PIN.",https://en.wikipedia.org/wiki/Personal_identification_number,
+SMS,Short message service: ordinary text messages sent between phones.,https://en.wikipedia.org/wiki/SMS,
