@@ -140,3 +140,57 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 139,27,match_pairs,exercise,138,Pair every term with its gloss.,Voice cloning↔AI-copied voice|Wire transfer↔Hard-to-reverse transfer|Ponzi scheme↔Pays earlier investors|Pig-butchering scam↔Slow trust-building con,,,,Each term is paired with its plain-language meaning.
 140,27,match_pairs,exercise,138,Which meaning fits each term?,Wire transfer↔Hard-to-reverse transfer|Ponzi scheme↔Pays earlier investors|Pig-butchering scam↔Slow trust-building con|Smishing↔Phishing by text,,,,Each term is paired with its plain-language meaning.
 141,27,match_pairs,exercise,138,Connect the terms to what they mean.,Ponzi scheme↔Pays earlier investors|Pig-butchering scam↔Slow trust-building con|Smishing↔Phishing by text|Quishing↔Phishing by QR,,,,Each term is paired with its plain-language meaning.
+142,1,multiple_choice,exam,,Scams mostly succeed through:,Hacking skills|Psychology|Pure luck,1,,,"Scammers use feelings like fear and trust, not clever code."
+143,1,true_false,exam,,Emotions can override careful thinking.,,true,,,That is why scammers aim at feelings first.
+144,2,multiple_choice,exam,,Manufactured urgency aims to stop:,Spending money|Clear thinking|Reading email,1,,,"Pressure leaves no time to think, so it is the most reliable scam tell."
+145,2,true_false,exam,,Urgency proves a request is genuine.,,false,,,"Urgency is the number one red flag, not proof."
+146,3,multiple_choice,exam,,Fake officials work because we tend to:,Argue|Comply|Ignore,1,,,"We are trained to comply with authority, so it lowers our guard."
+147,3,true_false,exam,,A caller using an official title is automatically genuine.,,false,,,Anyone can claim a title; impersonating authority is the tactic.
+148,4,multiple_choice,exam,,"A 'guaranteed, risk-free' huge return is likely:",Genuine|A scam|Rare,1,,,"No legitimate investment guarantees huge, risk-free returns."
+149,4,true_false,exam,,"Legitimate investments can guarantee huge, risk-free returns.",,false,,,That promise itself is the scam.
+150,5,multiple_choice,exam,,'Tell no one' mainly protects:,Your family|The scammer|Your bank,1,,,"Anyone you tell might spot the scam, so secrecy protects the scammer, not you."
+151,5,true_false,exam,,Telling others about an offer can expose a scam.,,true,,,Other people may spot what you missed.
+152,6,multiple_choice,exam,,A 'Dear Customer' greeting suggests:,Phishing|Your bank|A friend,0,,,Real senders who know you rarely open with a generic greeting.
+153,6,true_false,exam,,Real senders often use generic greetings.,,false,,,A generic greeting is a phishing sign.
+154,7,multiple_choice,exam,,"To check a sender, read the:",Subject line|Full address|Font,1,,,The full address behind the display name shows who really sent it.
+155,7,true_false,exam,,The display name proves who sent an email.,,false,,,Display names are easy to fake; check the address.
+156,8,multiple_choice,exam,,Hovering over a link shows its:,Real destination|Colour|Price,0,,,You can catch a mismatch before you click.
+157,8,true_false,exam,,You should check a link before clicking.,,true,,,Hover first to see the real destination.
+158,9,multiple_choice,exam,,Smishing is phishing by:,Voicemail message|Text message|Phone call,1,,,"SMS plus phishing: the same tricks, sent by text."
+159,9,multiple_choice,exam,,Spoofing fakes the:,Password|Sender identity|Website speed,1,,,It forges the sender or caller ID so a message looks trusted.
+160,10,multiple_choice,exam,,Quishing is phishing through:,QR codes|Voicemail|Fax,0,,,Quishing is QR-code phishing.
+161,10,true_false,exam,,Scanning a QR code skips careful reading.,,true,,,A scan bypasses the reading a typed link gets.
+162,11,multiple_choice,exam,,Cloned voices are mainly used to fake:,Weather news|Emergencies|Ads,1,,,"Scammers clone a relative, then claim an emergency needing cash."
+163,11,true_false,exam,,A familiar voice proves it's your relative.,,false,,,AI can clone a voice from public audio.
+164,12,multiple_choice,exam,,What can a voice clone not copy?,Their tone|Safe word|An accent,1,,,A secret only your real family knows cannot be cloned.
+165,12,true_false,exam,,A family safe word is known only to real family.,,true,,,That is what makes it a good check.
+166,13,multiple_choice,exam,,Caller ID spoofing can display a:,No number|Trusted number|Blocked number,1,,,"A real, trusted number can appear while a scammer calls."
+167,13,true_false,exam,,A call showing your bank's number is your bank.,,false,,,The displayed number can be forged.
+168,14,multiple_choice,exam,,A scary virus pop-up wants you to:,Restart device|Call support|Update browser,1,,,Its real goal is getting you to call and give remote access.
+169,14,true_false,exam,,The real goal is remote access to your device.,,true,,,The scary pop-up is the bait.
+170,15,multiple_choice,exam,,Your bank will never ask for your:,Branch|City|PIN,2,,,"A PIN, password or one-time code is never requested by phone."
+171,15,true_false,exam,,It's fine to read your code to a caller.,,false,,,A one-time code must never be shared; your bank already has your account.
+172,16,multiple_choice,exam,,Scammers prefer instant payments as they are:,Inexpensive|Permanent|Unreliable,1,,,"Once sent, instant transfers are nearly impossible to claw back."
+173,16,true_false,exam,,Card charges are easier to reverse than instant transfers.,,true,,,Instant transfers are far harder to recover.
+174,17,multiple_choice,exam,,Gift cards are demanded because they are:,Easily refunded|Untraceable|Traceable,1,,,Gift cards are untraceable and irreversible.
+175,17,true_false,exam,,A caller demanding gift cards is probably a scammer.,,true,,,That payment method is exactly what scammers demand.
+176,18,multiple_choice,exam,,A Ponzi scheme pays early investors with:,Real profit|Later deposits|Company savings,1,,,Early returns are later victims' deposits.
+177,18,true_false,exam,,Early payouts prove an investment is real.,,false,,,They create a convincing illusion of success.
+178,19,multiple_choice,exam,,Pig-butchering first builds:,Trust|A website|Debt,0,,,"After trust, the victim is steered to a fake crypto platform."
+179,19,true_false,exam,,The victim is steered to a fake crypto platform.,,true,,,That is the final step of the scam.
+180,20,multiple_choice,exam,,Romance scammers avoid:,Texting|Video calls|Compliments,1,,,Video or meeting up would expose the fake identity.
+181,20,true_false,exam,,Refusing every video call is a red flag.,,true,,,The scammer cannot show a real face.
+182,21,multiple_choice,exam,,A fake job asks you to pay:,Nothing|Upfront fees|Taxes,1,,,"Legitimate employers don't charge for equipment, training or processing."
+183,21,true_false,exam,,Real employers charge new hires processing fees.,,false,,,Being asked to pay is a warning sign.
+184,22,multiple_choice,exam,,"Before donating, you should:",Verify charity|Donate fast|Skip receipt,0,,,A quick search confirms a charity is registered.
+185,22,true_false,exam,,A quick search can confirm a charity is registered.,,true,,,Check before any money changes hands.
+186,23,multiple_choice,exam,,Real agencies write to you by:,Phone threats|Formal mail|Gift cards,1,,,"They use formal mail and courts, not demands for instant payment."
+187,23,true_false,exam,,Real agencies demand instant payment by phone.,,false,,,"They use formal mail and courts, not phone threats."
+188,24,multiple_choice,exam,,A friend asks for gift cards. You:,Send fast|Verify elsewhere|Reply fast,1,,,Contact the friend another way; the account may be compromised.
+189,24,true_false,exam,,A friend's account asking for gift cards may be hacked.,,true,,,So confirm with them through a different channel.
+190,25,multiple_choice,exam,,"After being scammed, first contact your:",Bank|Neighbour|Employer,0,,,Your bank can often freeze transfers or cards quickly.
+191,25,true_false,exam,,Speed matters when you contact your bank.,,true,,,Fast action gives the best chance to freeze a transfer.
+192,26,multiple_choice,exam,,"Besides your bank, tell a:",Social media|Fraud agency|Random stranger,1,,,Fraud agencies track patterns and can warn others.
+193,26,true_false,exam,,Reporting helps warn and protect others.,,true,,,Agencies use reports to track and stop scams.
+194,27,multiple_choice,exam,,Phishing by QR code is called:,Smishing|Quishing|Spoofing,1,,,Quishing is QR-code phishing.
+195,27,true_false,exam,,Spoofing forges the sender shown to you.,,true,,,It makes a message look like it came from someone trusted.
