@@ -1,18 +1,18 @@
 id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
 1,1,true_false,preview,2,"Most scams succeed through psychology, not hacking.",,true,,,Most scams succeed through psychology — urgency and trust — not clever hacking.
 2,1,multiple_choice,main,,What do most scams exploit?,Emotions|Software|Hardware,0,,,"Scammers target feelings — fear, urgency, trust — because emotions override careful thinking."
-3,1,multiple_choice,exercise,2,"""Panic! Your account closes in 1 hour.""",Scam|Legit,0,,,Manufactured panic is the classic emotional trigger — real account issues don't work this way.
-4,1,multiple_choice,exercise,2,"""You've been randomly selected — huge reward!""",Scam|Legit,0,,,Unearned excitement is bait — it hooks emotion before you can think it through.
-5,1,multiple_choice,exercise,2,Why does a panicked tone work on smart people?,Emotion wins|They're careless|Bad luck,0,,,Panic hijacks quick thinking regardless of intelligence — that's the actual mechanism being exploited.
+3,1,multiple_choice,exercise,2,"Emotions: ""Panic! Your account closes in 1 hour.""",Scam|Legit,0,,,Manufactured panic is the classic emotional trigger — real account issues don't work this way.
+4,1,multiple_choice,exercise,2,"Emotions: ""You've been randomly selected — huge reward!""",Scam|Legit,0,,,Unearned excitement is bait — it hooks emotion before you can think it through.
+5,1,multiple_choice,exercise,2,Why does a panicked tone exploit smart people?,Emotion wins|They're careless|Bad luck,0,,,Panic hijacks quick thinking regardless of intelligence — that's the actual mechanism being exploited.
 6,2,true_false,preview,7,Urgent pressure to act now is a red flag.,,true,,,"Legitimate organizations rarely demand instant action — scammers do, so you can't think."
 7,2,multiple_choice,main,,What's the #1 scam red flag?,Pressure|A call|An email,0,,,Manufactured urgency — 'act now or lose everything' — is scamming's most reliable tell.
 8,2,multiple_choice,exercise,7,"""Reply within 15 minutes or we cancel.""",Scam|Legit,0,,,"A hard countdown with a big threat is manufactured urgency, the classic pressure tactic."
 9,2,multiple_choice,exercise,7,"""No rush — reply whenever works.""",Legit|Scam,0,,,"No pressure to act instantly is what a real, patient request actually sounds like."
-10,2,multiple_choice,exercise,7,Why do fake deadlines work on victims?,No time|They're rude|Bad timing,0,,,A tight deadline blocks the pause where you'd normally verify or ask someone else.
+10,2,multiple_choice,exercise,7,Why is a fake deadline a red flag?,No time|They're rude|Bad timing,0,,,A tight deadline blocks the pause where you'd normally verify or ask someone else.
 11,3,true_false,preview,12,A fake caller can still claim to be police.,,true,,,Anyone can claim any title over the phone — a badge or logo proves nothing.
 12,3,multiple_choice,main,,Why do fake officials work as a tactic?,Trust authority|Loud voice|Fast talkers,0,,,"We're trained to comply with authority figures, so impersonating one lowers our guard fast."
-13,3,multiple_choice,exercise,12,"""This is Officer Reyes. Pay your fine now.""",Scam|Legit,0,,,Real police never collect fines by phone — a title alone proves nothing about a caller.
-14,3,multiple_choice,exercise,12,"""IT support here, we saw a breach."" Unprompted.",Scam|Legit,0,,,"An unsolicited call claiming authority, with no way to verify it, is the impersonation pattern."
+13,3,multiple_choice,exercise,12,"Authority: ""This is Officer Reyes. Pay your fine now.""",Scam|Legit,0,,,Real police never collect fines by phone — a title alone proves nothing about a caller.
+14,3,multiple_choice,exercise,12,"Authority: ""IT support here, we saw a breach."" Unprompted.",Scam|Legit,0,,,"An unsolicited call claiming authority, with no way to verify it, is the impersonation pattern."
 15,3,multiple_choice,exercise,12,Why does a fake title lower your guard?,Obey authority|It's flattering|It's funny,0,,,"Compliance with authority is a deep, automatic reflex — that's exactly what gets borrowed here."
 16,4,true_false,preview,17,Winning a contest you never entered is a red flag.,,true,,,You can't win something you never entered — that's the tell of a prize scam.
 17,4,multiple_choice,main,,"A message promises huge, guaranteed returns.",A scam|Safe bet|Free money,0,,,"No legitimate investment guarantees huge, risk-free returns — that promise itself is the scam."
@@ -27,7 +27,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 26,6,true_false,preview,27,A generic 'Dear Customer' greeting can signal phishing.,,true,,,A company that has your name usually uses it — a generic greeting is a tell.
 27,6,multiple_choice,main,,Which best signals a phishing email?,Generic greeting|Correct name|Short message,0,,,Real senders who know you rarely open with 'Dear Customer' or 'Dear Sir/Madam.'
 28,6,multiple_choice,exercise,27,"""Dear Valued Customer, urgent action needed.""",Scam|Legit,0,,,"Generic greeting plus urgency stacked together is a strong phishing combination, not a coincidence."
-29,6,multiple_choice,exercise,27,"""Hi Sarah, your March invoice is attached.""",Legit|Scam,0,,,"A real name and an expected, specific, mundane detail is how genuine business email reads."
+29,6,multiple_choice,exercise,27,"Phishing? ""Hi Sarah, your March invoice is attached.""",Legit|Scam,0,,,"A real name and an expected, specific, mundane detail is how genuine business email reads."
 30,6,multiple_choice,exercise,27,Why does a generic greeting suggest phishing?,Not personal|More formal|Saves ink,0,,,"A generic greeting means the message was blasted to many people, not written for you."
 31,7,true_false,preview,32,The name shown on an email can be faked.,,true,,,A display name is just text — it can say 'Amazon' while the real address is anything.
 32,7,multiple_choice,main,,What actually reveals a fake sender?,Real address|Display name|Subject line,0,,,"Always check the full email address behind the display name, not just the name shown."
@@ -72,7 +72,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 71,15,true_false,preview,72,Your bank will never ask for your password.,,true,,,"Real banks never need your password, PIN, or full card number spoken over a call."
 72,15,multiple_choice,main,,Which would your bank never ask by phone?,Your PIN|Your city|Your branch,0,,,"A PIN, password, or one-time code should never be requested — banks already have your account."
 73,15,multiple_choice,exercise,72,"""Read us the code we just texted you.""",Scam|Legit,0,,,A real bank already has that code — asking you to read it back is always a scam.
-74,15,multiple_choice,exercise,72,"""We're confirming your mailing address on file.""",Legit|Scam,0,,,"Confirming non-sensitive, already-known info is a normal verification step, unlike a live code."
+74,15,multiple_choice,exercise,72,"Bank phone: ""We're confirming your mailing address on file.""",Legit|Scam,0,,,"Confirming non-sensitive, already-known info is a normal verification step, unlike a live code."
 75,15,multiple_choice,exercise,72,Why would a scammer want your one-time code?,Unlocks account|A survey|By law,0,,,That code is the last lock on your account — getting it lets them straight in.
 76,16,true_false,preview,77,Money sent by wire transfer is hard to get back.,,true,,,Wires and instant-pay apps move money fast and are very hard to reverse — scammers love that.
 77,16,multiple_choice,main,,Why do scammers prefer instant payment apps?,Can't reverse|Lower fees|Slower delivery,0,,,"Once sent, instant transfers are nearly impossible to claw back — unlike a credit card charge."
@@ -86,7 +86,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 85,17,multiple_choice,exercise,82,Why do scammers specifically want gift card codes?,Untraceable cash|Collect coupons|It's tax-free,0,,,A gift card code is like handing over cash with zero way to trace or reverse it.
 86,18,true_false,preview,87,A Ponzi scheme pays old investors with new money.,,true,,,There's no real investment — early payouts are just funded by the next people who join.
 87,18,multiple_choice,main,,A Ponzi scheme's early payouts come from:,New investors|Real profit|Company savings,0,,,"Early 'returns' are simply later victims' deposits, creating a convincing illusion of success."
-88,18,multiple_choice,exercise,87,"""Every member who joined got paid so far.""",Scam|Legit,0,,,Early payouts funded entirely by new joiners is the exact structure of a Ponzi scheme.
+88,18,multiple_choice,exercise,87,"Payouts: ""Every member who joined got paid so far.""",Scam|Legit,0,,,Early payouts funded entirely by new joiners is the exact structure of a Ponzi scheme.
 89,18,multiple_choice,exercise,87,"Fund shows audited, independently verified returns.",Legit|Scam,0,,,Independent audits are a real check a Ponzi scheme could never actually survive.
 90,18,multiple_choice,exercise,87,Why does a Ponzi scheme eventually collapse?,Runs dry|Regulators intervene|Founder retires,0,,,"Once new deposits can't outpace payouts owed, the whole structure runs out of money."
 91,19,true_false,preview,92,Pig-butchering scams build trust slowly before asking for money.,,true,,,Named for 'fattening up' the victim — weeks of friendly chat come before any money talk.
@@ -127,7 +127,7 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 126,26,true_false,preview,127,Reporting a scam can help protect other people too.,,true,,,"Reports build the pattern data that flags numbers, sites, and accounts for everyone else."
 127,26,multiple_choice,main,,"Besides your bank, who should you tell?",Protection agency|No one|Social media,0,,,A consumer-protection or fraud-reporting agency tracks patterns and can warn or protect others.
 128,26,multiple_choice,exercise,127,You avoided a scam text — worth reporting anyway?,Yes|No harm,0,,,Reporting a near-miss still helps flag the number or site before it reaches someone else.
-129,26,multiple_choice,exercise,127,You feel embarrassed and consider staying quiet.,Report anyway|Stay silent,0,,,"Embarrassment is common, but silence only helps the scammer reach the next person unwarned."
+129,26,multiple_choice,exercise,127,You feel embarrassed to tell anyone.,Report anyway|Stay silent,0,,,"Embarrassment is common, but silence only helps the scammer reach the next person unwarned."
 130,26,multiple_choice,exercise,127,Why does one report matter beyond your own case?,Builds pattern|Legal requirement|Lowers taxes,0,,,Agencies use reports to spot patterns fast enough to warn or block against the next victim.
 131,9,true_false,preview,132,Spoofing fakes who a message appears to be from.,,true,,,Spoofing forges the caller ID or sender address so a call or message looks trustworthy when it isn't.
 132,9,multiple_choice,main,,What does spoofing fake?,Sender identity|Your password|Website speed,0,,,Spoofing forges the caller ID or sender address so the message appears to come from someone you'd trust.
